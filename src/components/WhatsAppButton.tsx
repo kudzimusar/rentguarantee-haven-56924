@@ -7,9 +7,9 @@ interface WhatsAppButtonProps {
 }
 
 const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({ 
-  message = "Hi! I'm interested in Propico's guaranteed rent services. Could you please help me with more information about how it works for my property?" 
+  message = "Hi! I'm interested in Proper Tier Properties' guaranteed rent services. Could you please help me with more information about how it works for my property?" 
 }) => {
-  const phoneNumber = '+918790645442';
+  const phoneNumber = '+818081201356';
   
   const handleWhatsAppClick = () => {
     const encodedMessage = encodeURIComponent(message);

@@ -11,8 +11,8 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHelmet 
-        title="Contact Propico - Get Guaranteed Rental Income | Property Management Support"
-        description="Contact Propico for guaranteed rental income services. Call +91-7738145442 or email info@propico.in. Office in HSR Layout, Bangalore. Get professional property management support."
+        title="Contact Proper Tier Properties - Get Guaranteed Rental Income | Property Management Support"
+        description="Contact Proper Tier Properties for guaranteed rental income services. Call +81-80-81201356 or email info@propertierproperties.com. Office in Harare, Zimbabwe. Get professional property management support."
       />
       <Navbar />
       <div className="pt-20">
@@ -46,19 +46,17 @@ const ContactPage = () => {
                       <div className="bg-gray-50 p-4 rounded-lg border border-gray-100">
                         <h4 className="text-base font-medium text-gray-900 mb-3">Registered Address:</h4>
                         <p className="text-gray-700 leading-relaxed">
-                          3rd floor No. 502, Sharda, 4s Sector 3,<br />
-                          HSR Layout, HSR Layout S.O, <br />
-                          Bangalore South, Karnataka, India, <br />
-                          PIN: 560102
+                          123 Robert Mugabe Road,<br />
+                          Harare Central,<br />
+                          Harare, Zimbabwe
                         </p>
                       </div>
                       <div className="bg-gray-50 p-4 rounded-lg border border-gray-100">
                         <h4 className="text-base font-medium text-gray-900 mb-3">Operational Address:</h4>
                         <p className="text-gray-700 leading-relaxed">
-                          3rd floor no 502, Sharda, 4s Sector 3,<br />
-                          HSR Layout, HSR Layout S.O, <br />
-                          Bangalore South, Karnataka, India, <br />
-                          PIN: 560102
+                          123 Robert Mugabe Road,<br />
+                          Harare Central,<br />
+                          Harare, Zimbabwe
                         </p>
                       </div>
                     </div>
@@ -72,8 +70,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-semibold text-lg text-gray-900 mb-2">Telephone</h3>
                     <p className="text-gray-700">
-                      <a href="tel:+917738145442" className="hover:theme-primary-text hover:underline transition-colors">
-                        +91 77381 45442
+                      <a href="tel:+818081201356" className="hover:theme-primary-text hover:underline transition-colors">
+                        +81 80 81201356
                       </a>
                     </p>
                   </div>
@@ -86,8 +84,8 @@ const ContactPage = () => {
                   <div>
                     <h3 className="font-semibold text-lg text-gray-900 mb-2">Email</h3>
                     <p className="text-gray-700">
-                      <a href="mailto:info@propico.in" className="hover:theme-primary-text hover:underline transition-colors">
-                        info@propico.in
+                      <a href="mailto:info@propertierproperties.com" className="hover:theme-primary-text hover:underline transition-colors">
+                        info@propertierproperties.com
                       </a>
                     </p>
                   </div>

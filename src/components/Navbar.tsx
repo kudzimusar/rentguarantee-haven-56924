@@ -42,10 +42,10 @@ const Navbar = () => {
         <Link to="/" className="flex items-center text-2xl font-bold theme-primary-text gap-1">
           <img 
             src="/lovable-uploads/7b314dd5-c766-4046-8e2f-02a35e9e67c2.png" 
-            alt="Propico Logo" 
+            alt="Proper Tier Properties Logo" 
             className="h-8 w-12"
           />
-          Propico
+          Proper Tier Properties
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">

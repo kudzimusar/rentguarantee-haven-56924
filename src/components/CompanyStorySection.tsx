@@ -11,13 +11,13 @@ const CompanyStorySection = () => {
           {/* Main Header Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold theme-primary-text mb-6">
-              About Propico
+              About Proper Tier Properties
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8">
               Guaranteed Rental Income. Complete Peace of Mind.
             </p>
             <p className="text-lg text-gray-700 max-w-4xl mx-auto">
-              At Propico, we believe property ownership should generate stress-free income, not sleepless nights. We're India's rental guarantee property management company, ensuring property owners receive guaranteed monthly rent regardless of tenant issues or vacancies.
+              At Proper Tier Properties, we believe property ownership should generate stress-free income, not sleepless nights. We're Zimbabwe's rental guarantee property management company, ensuring property owners receive guaranteed monthly rent regardless of tenant issues or vacancies.
             </p>
           </div>
 
@@ -28,10 +28,10 @@ const CompanyStorySection = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Propico was founded by three homeowners who each experienced the frustrations of property ownership firsthand - from the hassles of filling up vacant flats to chasing late rent payments to dealing with tenant issues and unexpected maintenance problems. Combining their backgrounds in technology, finance and business operations, they realized the Indian rental market needed a fundamental shift from traditional property management to guaranteed rental income.
+                Proper Tier Properties was founded by three homeowners who each experienced the frustrations of property ownership firsthand - from the hassles of filling up vacant flats to chasing late rent payments to dealing with tenant issues and unexpected maintenance problems. Combining their backgrounds in technology, finance and business operations, they realized the Zimbabwean rental market needed a fundamental shift from traditional property management to guaranteed rental income.
               </p>
               <p className="text-lg text-gray-700">
-                Today, Propico is transforming how property owners across India experience rental income through our innovative rental guarantee program.
+                Today, Proper Tier Properties is transforming how property owners across Zimbabwe experience rental income through our innovative rental guarantee program.
               </p>
             </div>
             
@@ -39,7 +39,7 @@ const CompanyStorySection = () => {
               <div className="w-full max-w-md mx-auto">
                 <LazyImage 
                   src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Propico team working together" 
+                  alt="Proper Tier Properties team working together" 
                   className="object-cover w-full h-64 rounded-xl shadow-lg"
                   width={400}
                   height={256}
@@ -136,7 +136,7 @@ const CompanyStorySection = () => {
                 <Building className="h-8 w-8 text-purple-600" />
               </div>
               <p className="text-lg text-gray-700">
-                We currently serve property owners in <span className="font-semibold theme-primary-text">Bangalore, Mumbai, Delhi NCR, Pune, and Hyderabad</span>, with plans to expand to additional cities.
+                We currently serve property owners in <span className="font-semibold theme-primary-text">Harare, Bulawayo, Mutare, Gweru, and Chitungwiza</span>, with plans to expand to additional cities.
               </p>
             </div>
           </div>
@@ -147,7 +147,7 @@ const CompanyStorySection = () => {
               Ready to Experience Stress-Free Rental Income?
             </h2>
             <p className="text-lg mb-8 opacity-90">
-              Contact us today for a free consultation and discover why property owners across India choose Propico for guaranteed rental income and complete property management.
+              Contact us today for a free consultation and discover why property owners across Zimbabwe choose Proper Tier Properties for guaranteed rental income and complete property management.
             </p>
             <a 
               href="/list-property" 

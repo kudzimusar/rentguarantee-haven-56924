@@ -16,7 +16,7 @@ const AdminSettings = () => {
   
   // Check if admin mode is active
   useEffect(() => {
-    const isAdmin = sessionStorage.getItem("propicoAdminMode");
+    const isAdmin = sessionStorage.getItem("propertieradminmode");
     if (!isAdmin) {
       navigate("/");
       toast.error("You don't have access to this page");
@@ -46,7 +46,7 @@ const AdminSettings = () => {
   };
   
   const exitAdminMode = () => {
-    sessionStorage.removeItem("propicoAdminMode");
+    sessionStorage.removeItem("propertieradminmode");
     navigate("/");
     toast.success("Exited admin mode", {
       description: "You've been redirected to the homepage."

@@ -30,8 +30,8 @@ const TenantHero = () => {
                 size="lg"
                 className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary)]/90 text-base group"
                 onClick={() => {
-                  const phoneNumber = '+918790645442';
-                  const message = "Hi! I'm interested in Propico's tenant membership plans. Could you please help me with more information?";
+                  const phoneNumber = '+818081201356';
+                  const message = "Hi! I'm interested in Proper Tier Properties' tenant membership plans. Could you please help me with more information?";
                   const encodedMessage = encodeURIComponent(message);
                   const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodedMessage}`;
                   window.open(whatsappUrl, '_blank');

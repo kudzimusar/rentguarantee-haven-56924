@@ -37,9 +37,9 @@ const ResultsStep: React.FC = () => {
   const upperBound = Math.round(midpoint * 1.05);
 
   const formatCurrency = (amount: number): string => {
-    return new Intl.NumberFormat('en-IN', {
+    return new Intl.NumberFormat('en-US', {
       style: 'currency',
-      currency: 'INR',
+      currency: 'USD',
       maximumFractionDigits: 0
     }).format(amount);
   };

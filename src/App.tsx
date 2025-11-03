@@ -15,7 +15,7 @@ const queryClient = new QueryClient();
 
 const App: React.FC = () => {
   const [keySequence, setKeySequence] = useState<string>("");
-  const ADMIN_KEY_SEQUENCE = "propicoadmin";
+  const ADMIN_KEY_SEQUENCE = "propertieradmin";
 
   useEffect(() => {
     // Handle version compatibility
@@ -42,7 +42,7 @@ const App: React.FC = () => {
           
           if (newSequence === ADMIN_KEY_SEQUENCE) {
             // Set admin mode in session storage
-            sessionStorage.setItem("propicoAdminMode", "true");
+            sessionStorage.setItem("propertieradminmode", "true");
             
             // Navigate to admin settings
             window.location.href = "/admin-settings";

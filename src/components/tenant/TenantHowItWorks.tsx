@@ -4,8 +4,8 @@ import { tenantProcessSteps } from "../how-it-works/types";
 
 const TenantHowItWorks = () => {
   const handleApplyClick = () => {
-    const phoneNumber = '+918790645442';
-    const message = "Hi! I'd like to apply for Propico's tenant membership. Could you please help me get started with the application process?";
+    const phoneNumber = '+818081201356';
+    const message = "Hi! I'd like to apply for Proper Tier Properties' tenant membership. Could you please help me get started with the application process?";
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodedMessage}`;
     window.open(whatsappUrl, '_blank');

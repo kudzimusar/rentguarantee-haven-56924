@@ -33,10 +33,10 @@ const ListProperty = () => {
       setUrlSaved(true);
     }
     
-    const isAdminMode = sessionStorage.getItem("propicoAdminMode") === "true";
+    const isAdminMode = sessionStorage.getItem("propertieradminmode") === "true";
     setShowAdmin(isAdminMode);
     
-    const isDebugMode = localStorage.getItem("propicoDebugMode") === "true";
+    const isDebugMode = localStorage.getItem("propertierDebugMode") === "true";
     setDebugMode(isDebugMode);
   }, []);
 
@@ -48,7 +48,7 @@ const ListProperty = () => {
           
           if (newSequence === ADMIN_KEY_SEQUENCE) {
             setShowAdmin(true);
-            sessionStorage.setItem("propicoAdminMode", "true");
+            sessionStorage.setItem("propertieradminmode", "true");
             toast({
               title: "Admin mode activated",
               description: "You can now configure Google Sheets integration."
@@ -98,7 +98,7 @@ const ListProperty = () => {
   
   const exitAdminMode = () => {
     setShowAdmin(false);
-    sessionStorage.removeItem("propicoAdminMode");
+    sessionStorage.removeItem("propertieradminmode");
     toast({
       title: "Admin mode deactivated",
       description: "Google Form configuration is now hidden."

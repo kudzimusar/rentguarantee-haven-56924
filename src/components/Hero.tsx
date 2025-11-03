@@ -43,7 +43,7 @@ const NotificationCard = memo(() => (
     <CardContent className="p-0">
       <div className="bg-[var(--theme-primary)] px-3 py-1.5 flex items-center">
         <MessageSquare size={14} className="text-white mr-1.5" />
-        <p className="text-white text-xs font-medium">Propico</p>
+        <p className="text-white text-xs font-medium">Proper Tier Properties</p>
       </div>
       
       <div className="p-3">

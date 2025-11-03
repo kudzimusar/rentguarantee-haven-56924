@@ -7,7 +7,7 @@ const GuaranteedRentFlyer: React.FC = () => {
     <div className="w-[1080px] h-[1920px] bg-white flex flex-col relative overflow-hidden rounded-3xl">
       {/* Header Section with Gradient Background */}
       <div className="w-full h-[500px] bg-gradient-to-r from-[#9b50e3] to-[#ff69b4] p-8 flex flex-col justify-center items-center">
-        <p className="text-white text-center text-3xl font-medium mb-4">PROPICO</p>
+        <p className="text-white text-center text-3xl font-medium mb-4">PROPER TIER PROPERTIES</p>
         <h1 className="text-white text-center text-9xl font-bold tracking-wider leading-tight">GUARANTEED<br />RENT</h1>
         <h2 className="text-white text-center text-4xl font-medium mt-6">EVERY MONTH. NO EXCEPTIONS.</h2>
       </div>
@@ -15,7 +15,7 @@ const GuaranteedRentFlyer: React.FC = () => {
       {/* Rent Amount Card */}
       <div className="relative">
         <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] bg-white rounded-xl shadow-2xl p-10 text-center">
-          <div className="text-[#4A23AD] text-7xl font-bold mb-3">₹50,000<span className="text-4xl">/month</span></div>
+          <div className="text-[#4A23AD] text-7xl font-bold mb-3">$500<span className="text-4xl">/month</span></div>
           <div className="text-gray-700 text-2xl">Fixed payments. On time. Every time.</div>
         </div>
       </div>
@@ -65,9 +65,9 @@ const GuaranteedRentFlyer: React.FC = () => {
       <div className="w-full px-16 py-12 bg-white">
         <div className="border-l-4 border-[#4A23AD] pl-6 py-4">
           <p className="text-gray-700 italic text-xl mb-4">
-            "Since partnering with Propico, I've received my rent on time every month without fail. The peace of mind is worth every rupee!"
+            "Since partnering with Proper Tier Properties, I've received my rent on time every month without fail. The peace of mind is worth every dollar!"
           </p>
-          <p className="text-gray-900 font-semibold">— Ananya S., Property Owner in Koramangala</p>
+          <p className="text-gray-900 font-semibold">— Ananya S., Property Owner in Harare</p>
         </div>
       </div>
 
@@ -97,8 +97,8 @@ const GuaranteedRentFlyer: React.FC = () => {
           LIMITED SPOTS AVAILABLE
         </div>
         
-        <p className="text-xl text-gray-700 font-medium mb-4">Call or WhatsApp: +91 98765-43210</p>
-        <p className="text-xl text-[#4A23AD] font-medium">www.propico.in</p>
+        <p className="text-xl text-gray-700 font-medium mb-4">Call or WhatsApp: +81 80 81201356</p>
+        <p className="text-xl text-[#4A23AD] font-medium">www.propertierproperties.com</p>
       </div>
     </div>
   );

@@ -10,9 +10,9 @@ interface RentInputProps {
 
 export const RentInput = ({ monthlyRent, setMonthlyRent }: RentInputProps) => {
   const formatCurrency = (value: number) => {
-    return new Intl.NumberFormat('en-IN', {
+    return new Intl.NumberFormat('en-US', {
       style: 'currency',
-      currency: 'INR',
+      currency: 'USD',
       maximumFractionDigits: 0,
     }).format(value);
   };
@@ -21,7 +21,7 @@ export const RentInput = ({ monthlyRent, setMonthlyRent }: RentInputProps) => {
     <div className="space-y-4">
       <div>
         <Label htmlFor="monthly-rent" className="text-sm font-medium text-gray-700 mb-1">
-          Monthly Rent (₹)
+          Monthly Rent ($)
         </Label>
         <Slider
           id="monthly-rent"

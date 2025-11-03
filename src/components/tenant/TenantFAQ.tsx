@@ -165,8 +165,8 @@ const TenantFAQ = () => {
               variant="accent" 
               className="w-full sm:w-auto px-5 py-3 whitespace-nowrap"
               onClick={() => {
-                const phoneNumber = '+918790645442';
-                const message = "Hi! I have some questions about Propico's tenant services. Could you please help me?";
+                const phoneNumber = '+818081201356';
+                const message = "Hi! I have some questions about Proper Tier Properties' tenant services. Could you please help me?";
                 const encodedMessage = encodeURIComponent(message);
                 const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, '')}?text=${encodedMessage}`;
                 window.open(whatsappUrl, '_blank');
