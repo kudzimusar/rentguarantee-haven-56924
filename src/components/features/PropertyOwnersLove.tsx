@@ -48,7 +48,7 @@ const PropertyOwnersLove = () => {
   return (
     <div className="rounded-xl border border-gray-200 p-8">
       <h3 className="text-2xl font-bold text-[var(--theme-primary)] mb-8">
-        Why do property owners <span className="text-[var(--theme-accent)]">love</span> Propico
+        Why do property owners <span className="text-[var(--theme-accent)]">love</span> Proper Tier Properties
       </h3>
       
       <div className="grid md:grid-cols-2 gap-x-12 gap-y-8">

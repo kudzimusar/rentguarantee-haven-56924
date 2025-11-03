@@ -24,7 +24,7 @@ const AboutCompanyFAQ = () => {
           value="item-8"
           icon={Building}
           question="What motivated the founders to start this company?"
-          answer="Our founders were property owners themselves who experienced firsthand the challenges of rental management—unpredictable income, maintenance headaches, and tenant issues. After searching for solutions and finding only fragmented services with hidden costs, they decided to create the comprehensive property management service they wished existed. Propico was built by landlords for landlords, combining technology with personalized service to address the real pain points property owners face every day."
+          answer="Our founders were property owners themselves who experienced firsthand the challenges of rental management—unpredictable income, maintenance headaches, and tenant issues. After searching for solutions and finding only fragmented services with hidden costs, they decided to create the comprehensive property management service they wished existed. Proper Tier Properties was built by landlords for landlords, combining technology with personalized service to address the real pain points property owners face every day."
         />
       </Accordion>
     </div>

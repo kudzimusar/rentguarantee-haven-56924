@@ -1,10 +1,10 @@
 export const calculateROI = (monthlyRent: number) => {
-  // For Propico calculation
+  // For Proper Tier calculation
   const brokerFee = monthlyRent * 0.5; // 50% of one month's rent
   const managementFee = monthlyRent * 0.1 * 12; // 10% of yearly rent
-  const propicoAnnualIncome = (monthlyRent * 12) - managementFee - brokerFee;
-  const propicoExpenses = 0; // No additional expenses with Propico
-  const propicoNet = propicoAnnualIncome;
+  const properTierAnnualIncome = (monthlyRent * 12) - managementFee - brokerFee;
+  const properTierExpenses = 0; // No additional expenses with Proper Tier
+  const properTierNet = properTierAnnualIncome;
   
   // For Traditional calculation
   const marketRent = monthlyRent;
@@ -34,10 +34,10 @@ export const calculateROI = (monthlyRent: number) => {
   
   // Final calculations
   return {
-    propicoNetIncome: propicoNet,
+    properTierNetIncome: properTierNet,
     traditionalNetIncome: traditionalNet,
-    annualDifference: propicoNet - traditionalNet,
-    propicoMonthlyIncome: propicoNet / 12,
+    annualDifference: properTierNet - traditionalNet,
+    properTierMonthlyIncome: properTierNet / 12,
     traditionalMonthlyIncome: traditionalNet / 12,
     traditionalExpenses,
     managementFee: managementFee // Annual management fee (10% of yearly rent)

@@ -1,6 +1,6 @@
 
 import React from "react";
-import { IndianRupee, Users, Home, MessageSquare, AlertTriangle } from "lucide-react";
+import { DollarSign, Users, Home, MessageSquare, AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Card } from "@/components/ui/card";
@@ -37,7 +37,7 @@ const HiddenCostsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {/* Pain Point 1 */}
           <HiddenCostCard
-            icon={IndianRupee}
+            icon={DollarSign}
             title="Income Uncertainty"
             description="Disrupts financial planning with irregular income. Properties average 43 vacant days yearly, creating budget gaps when you need consistent income most."
             iconColor="theme-accent-text"

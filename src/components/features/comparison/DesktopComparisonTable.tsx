@@ -12,7 +12,7 @@ const DesktopComparisonTable = () => {
             Features
           </div>
           <div className="bg-[#f5f0ff] py-5 px-6 font-bold text-lg text-[var(--theme-primary)] border-b border-gray-200">
-            Propico
+            Proper Tier
           </div>
           <div className="bg-white py-5 px-6 font-bold text-lg border-b border-gray-200">
             Traditional PMS
@@ -42,7 +42,7 @@ const DesktopComparisonTable = () => {
             <span>Financial risk bearer</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            Propico takes all risk
+            Proper Tier takes all risk
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
             Owner takes all risks
@@ -72,7 +72,7 @@ const DesktopComparisonTable = () => {
             <span>Property Condition</span>
           </div>
           <div className="bg-[#f5f0ff] py-4 px-6 font-medium text-[var(--theme-primary)] border-b border-gray-200">
-            Propico guarantee
+            Proper Tier guarantee
           </div>
           <div className="bg-white py-4 px-6 border-b border-gray-200">
             No guarantee

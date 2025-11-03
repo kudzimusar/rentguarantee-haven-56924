@@ -31,8 +31,8 @@ export const CostComparison = ({
   // Calculate the broker fee as 50% of one month's rent
   const brokerFee = monthlyRent * 0.5; // 50% of one month's rent
   
-  // Total Propico cost
-  const totalPropicoCost = managementFee + brokerFee;
+  // Total Proper Tier cost
+  const totalProperTierCost = managementFee + brokerFee;
   
   return (
     <div className="mb-5">
@@ -42,13 +42,13 @@ export const CostComparison = ({
         {/* Propico side */}
         <div className="bg-green-50 rounded-lg p-6 border border-green-100">
           <div className="flex justify-between items-center mb-1">
-            <h5 className="font-medium text-green-800">Propico Costs</h5>
-            <p className="text-xl font-bold text-green-800">{formatCurrency(totalPropicoCost)}</p>
+            <h5 className="font-medium text-green-800">Proper Tier Costs</h5>
+            <p className="text-xl font-bold text-green-800">{formatCurrency(totalProperTierCost)}</p>
           </div>
           
           <div className="mt-3 pt-3 border-t border-gray-200 space-y-2 text-xs text-gray-600">
             <div className="flex justify-between">
-              <span>Propico Management Fee:</span>
+              <span>Proper Tier Management Fee:</span>
               <span className="font-medium text-green-700">{formatCurrency(managementFee)}</span>
             </div>
             <div className="flex justify-between">

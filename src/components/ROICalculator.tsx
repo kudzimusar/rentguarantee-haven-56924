@@ -6,7 +6,7 @@ import { RentInput } from "./roi-calculator/RentInput";
 import { Assumptions } from "./roi-calculator/Assumptions";
 import { IncomeCards } from "./roi-calculator/IncomeCards";
 import { CostComparison } from "./roi-calculator/CostComparison";
-import { PropicoAdvantage } from "./roi-calculator/PropicoAdvantage";
+import { ProperTierAdvantage } from "./roi-calculator/ProperTierAdvantage";
 import { IncomeComparisonChart } from "./roi-calculator/IncomeComparisonChart";
 import { calculateROI, formatCurrency } from "./roi-calculator/calculatorUtils";
 
@@ -16,10 +16,10 @@ const ROICalculator = () => {
   const [showDetailedCosts, setShowDetailedCosts] = useState(true); // Start with costs visible
   
   // Calculation variables
-  const [propicoNetIncome, setPropicoNetIncome] = useState(0);
+  const [properTierNetIncome, setProperTierNetIncome] = useState(0);
   const [traditionalNetIncome, setTraditionalNetIncome] = useState(0);
   const [annualDifference, setAnnualDifference] = useState(0);
-  const [propicoMonthlyIncome, setPropicoMonthlyIncome] = useState(0);
+  const [properTierMonthlyIncome, setProperTierMonthlyIncome] = useState(0);
   const [traditionalMonthlyIncome, setTraditionalMonthlyIncome] = useState(0);
   const [traditionalExpenses, setTraditionalExpenses] = useState({
     vacancyLoss: 0,
@@ -34,10 +34,10 @@ const ROICalculator = () => {
   useEffect(() => {
     const results = calculateROI(monthlyRent);
     
-    setPropicoNetIncome(results.propicoNetIncome);
+    setProperTierNetIncome(results.properTierNetIncome);
     setTraditionalNetIncome(results.traditionalNetIncome);
     setAnnualDifference(results.annualDifference);
-    setPropicoMonthlyIncome(results.propicoMonthlyIncome);
+    setProperTierMonthlyIncome(results.properTierMonthlyIncome);
     setTraditionalMonthlyIncome(results.traditionalMonthlyIncome);
     setTraditionalExpenses(results.traditionalExpenses);
     setManagementFee(results.managementFee);
@@ -51,7 +51,7 @@ const ROICalculator = () => {
             <div className="flex items-center justify-center mb-2">
               <Calculator className="mr-2 h-7 w-7 theme-accent-text" />
               <h2 className="text-2xl md:text-3xl font-bold theme-primary-text">
-                Propico Calculator
+                Proper Tier Calculator
               </h2>
             </div>
             <p className="text-base text-gray-600">
@@ -83,15 +83,15 @@ const ROICalculator = () => {
                 </h3>
                 
                 <IncomeCards 
-                  propicoMonthlyIncome={propicoMonthlyIncome}
-                  propicoNetIncome={propicoNetIncome}
+                  properTierMonthlyIncome={properTierMonthlyIncome}
+                  properTierNetIncome={properTierNetIncome}
                   traditionalMonthlyIncome={traditionalMonthlyIncome}
                   traditionalNetIncome={traditionalNetIncome}
                   formatCurrency={formatCurrency}
                 />
                 
                 <IncomeComparisonChart 
-                  propicoNetIncome={propicoNetIncome}
+                  properTierNetIncome={properTierNetIncome}
                   traditionalNetIncome={traditionalNetIncome}
                   formatCurrency={formatCurrency}
                 />
@@ -105,7 +105,7 @@ const ROICalculator = () => {
                   monthlyRent={monthlyRent}
                 />
                 
-                <PropicoAdvantage 
+                <ProperTierAdvantage 
                   annualDifference={annualDifference}
                   formatCurrency={formatCurrency}
                 />

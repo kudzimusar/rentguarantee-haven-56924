@@ -30,7 +30,7 @@ const PropertyManagementFAQ = () => {
           value="item-7"
           icon={Award}
           question="Why is the Premium package worth the extra cost?"
-          answer="Our Premium package provides significantly higher returns and peace of mind. While it costs ₹5,000 more per month than our Standard package, it typically delivers ₹15,000-20,000 in additional monthly income through higher rental rates, faster tenant placement, and reduced vacancy. Premium clients also receive priority maintenance service, quarterly property inspections, and complimentary annual deep cleaning services—all of which extend your property's lifespan and maintain its market value."
+          answer="Our Premium package provides significantly higher returns and peace of mind. While it costs $50 more per month than our Standard package, it typically delivers $150-200 in additional monthly income through higher rental rates, faster tenant placement, and reduced vacancy. Premium clients also receive priority maintenance service, quarterly property inspections, and complimentary annual deep cleaning services—all of which extend your property's lifespan and maintain its market value."
         />
       </Accordion>
     </div>

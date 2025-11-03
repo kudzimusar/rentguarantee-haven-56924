@@ -4,21 +4,21 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveCo
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 
 interface IncomeComparisonChartProps {
-  propicoNetIncome: number;
+  properTierNetIncome: number;
   traditionalNetIncome: number;
   formatCurrency: (value: number) => string;
 }
 
 export const IncomeComparisonChart = ({ 
-  propicoNetIncome, 
+  properTierNetIncome, 
   traditionalNetIncome, 
   formatCurrency 
 }: IncomeComparisonChartProps) => {
   const data = [
     {
-      name: "Propico",
-      value: propicoNetIncome,
-      fill: "#38a169", // More premium, muted green (green-600)
+      name: "Proper Tier",
+      value: properTierNetIncome,
+      fill: "#1B5E3E", // Zimbabwe green
     },
     {
       name: "Traditional",
@@ -33,7 +33,7 @@ export const IncomeComparisonChart = ({
       <ChartContainer 
         className="h-full" 
         config={{
-          Propico: { color: "#38a169" }, // More premium, muted green
+          "Proper Tier": { color: "#1B5E3E" }, // Zimbabwe green
           Traditional: { color: "#6b7280" },
         }}
       >
@@ -43,7 +43,7 @@ export const IncomeComparisonChart = ({
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" fontSize={12} />
-          <YAxis fontSize={12} tickFormatter={(value) => `₹${(value / 1000)}K`} />
+          <YAxis fontSize={12} tickFormatter={(value) => `$${(value / 1000)}K`} />
           <ChartTooltip 
             content={
               <ChartTooltipContent 

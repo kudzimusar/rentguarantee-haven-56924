@@ -30,7 +30,7 @@ const TenantSavingsCalculator = () => {
                           membershipType === "premium" ? 2 : 3;
   const annualPoints = 12 * 500 * pointsMultiplier;
   
-  // Estimate rewards value (1000 points = ₹100 value)
+  // Estimate rewards value (1000 points = $10 value)
   const estimatedRewardsValue = Math.round(annualPoints / 1000) * 100;
 
   const handleApplyNow = () => {
@@ -45,7 +45,7 @@ const TenantSavingsCalculator = () => {
     // Show toast notification
     toast({
       title: "Application Started",
-      description: `Selected plan: ${membershipType.charAt(0).toUpperCase() + membershipType.slice(1)} (₹${monthlyFee}/month)`,
+      description: `Selected plan: ${membershipType.charAt(0).toUpperCase() + membershipType.slice(1)} ($${monthlyFee}/month)`,
     });
     
     // Reset submission state after a slight delay
@@ -80,7 +80,7 @@ const TenantSavingsCalculator = () => {
                 <div className="space-y-6">
                   <div>
                     <label className="block text-gray-700 font-medium mb-2">
-                      Monthly Rent (₹)
+                      Monthly Rent ($)
                     </label>
                     <input
                       type="range"
@@ -92,9 +92,9 @@ const TenantSavingsCalculator = () => {
                       className="w-full h-2 bg-purple-200 rounded-full appearance-none cursor-pointer"
                     />
                     <div className="flex justify-between mt-2">
-                      <span className="text-gray-500">₹10,000</span>
-                      <span className="font-medium text-purple-600">₹{rentAmount.toLocaleString()}</span>
-                      <span className="text-gray-500">₹100,000</span>
+                      <span className="text-gray-500">$100</span>
+                      <span className="font-medium text-purple-600">${rentAmount.toLocaleString()}</span>
+                      <span className="text-gray-500">$1,000</span>
                     </div>
                   </div>
                   

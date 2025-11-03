@@ -58,7 +58,7 @@ const TenantRewards = () => {
             <EarningCard
               title="On-time Payments"
               description="Earn base points for every rent payment made on time"
-              points="1 point per ₹100 rent payment"
+              points="1 point per $10 rent payment"
             />
             
             <EarningCard

@@ -2,12 +2,12 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 
-interface PropicoAdvantageProps {
+interface ProperTierAdvantageProps {
   annualDifference: number;
   formatCurrency: (value: number) => string;
 }
 
-export const PropicoAdvantage = ({ annualDifference, formatCurrency }: PropicoAdvantageProps) => {
+export const ProperTierAdvantage = ({ annualDifference, formatCurrency }: ProperTierAdvantageProps) => {
   const monthlyDifference = annualDifference / 12;
 
   const scrollToPropertyForm = () => {
@@ -28,7 +28,7 @@ export const PropicoAdvantage = ({ annualDifference, formatCurrency }: PropicoAd
     <>
       <div className="p-4 bg-green-50 rounded-lg border border-green-100">
         <div className="flex flex-col sm:flex-row justify-between items-center">
-          <p className="font-medium text-sm text-gray-800 mb-2 sm:mb-0">Your Propico Advantage:</p>
+          <p className="font-medium text-sm text-gray-800 mb-2 sm:mb-0">Your Proper Tier Advantage:</p>
           <p className="font-bold text-lg text-green-600">{formatCurrency(annualDifference)} Added Annual Income</p>
         </div>
         <p className="text-center mt-2 text-green-700 font-medium">

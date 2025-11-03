@@ -49,7 +49,7 @@ const NotificationCard = memo(() => (
       <div className="p-3">
         <div className="bg-white rounded-lg p-2.5 shadow-sm border-l-3 border-[var(--theme-accent)]">
           <p className="text-xs text-gray-800 font-medium">Good news!</p>
-          <p className="text-base font-bold text-[var(--theme-accent)]">₹50,000<span className="text-xs font-medium">/month</span></p>
+          <p className="text-base font-bold text-[var(--theme-accent)]">$5,000<span className="text-xs font-medium">/month</span></p>
           <div className="flex items-center mt-1 text-xs text-gray-600">
             <Clock size={10} className="mr-1 text-[var(--theme-primary)]" />
             <p className="text-[10px]">Guaranteed rent starting in 21 days</p>

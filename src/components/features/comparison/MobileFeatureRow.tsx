@@ -5,11 +5,11 @@ interface MobileFeatureRowProps {
   icon: React.ReactNode;
   feature: string;
   value: string;
-  isPropico?: boolean;
+  isProperTier?: boolean;
   isBetterValue?: boolean;
 }
 
-const MobileFeatureRow = ({ icon, feature, value, isPropico, isBetterValue }: MobileFeatureRowProps) => {
+const MobileFeatureRow = ({ icon, feature, value, isProperTier, isBetterValue }: MobileFeatureRowProps) => {
   return (
     <div className="flex py-4 px-4">
       <div className="flex gap-3 w-1/2 pr-2">
@@ -19,7 +19,7 @@ const MobileFeatureRow = ({ icon, feature, value, isPropico, isBetterValue }: Mo
         <span className="text-sm font-medium break-words">{feature}</span>
       </div>
       <div className={`w-1/2 text-sm font-medium text-left break-words flex items-center
-        ${isPropico && isBetterValue ? 'text-[var(--theme-primary)]' : ''}`}>
+        ${isProperTier && isBetterValue ? 'text-[var(--theme-primary)]' : ''}`}>
         {value}
       </div>
     </div>

@@ -125,7 +125,7 @@ const TenantFAQ = () => {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="px-6 py-4 text-gray-700">
-                  You earn 1 point for every ₹100 of rent paid on time, with multipliers based on your membership level (1x for Basic, 2x for Premium, 3x for Luxury). Each point is worth ₹1. Additional points can be earned through referrals (2,000 points per referral) and lease renewals (5,000 points bonus). Points can be redeemed for rent credits, partner vouchers, utility payments, or home services through our app.
+                  You earn 1 point for every $10 of rent paid on time, with multipliers based on your membership level (1x for Basic, 2x for Premium, 3x for Luxury). Each point is worth $0.10. Additional points can be earned through referrals (2,000 points per referral) and lease renewals (5,000 points bonus). Points can be redeemed for rent credits, partner vouchers, utility payments, or home services through our app.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

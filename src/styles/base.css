@@ -5,16 +5,16 @@
 
 @layer base {
   :root {
-    /* Default theme colors - Updated primary color */
-    --theme-primary: #4A23AD; /* Updated to new purple 4A23AD */
-    --theme-accent: #FF5A6F;  /* Coral - keeping as is */
+    /* Zimbabwe-inspired theme colors - Green & Gold */
+    --theme-primary: #1B5E3E; /* Rich Zimbabwe green */
+    --theme-accent: #D4AF37;  /* Gold representing mineral wealth */
     --theme-background: #FFFFFF; /* White background */
     
     /* Lighter variations with proper opacity for layering */
-    --theme-primary-light: rgba(74, 35, 173, 0.08);
-    --theme-primary-medium: rgba(74, 35, 173, 0.15);
-    --theme-accent-light: rgba(255, 90, 111, 0.08);
-    --theme-accent-medium: rgba(255, 90, 111, 0.15);
+    --theme-primary-light: rgba(27, 94, 62, 0.08);
+    --theme-primary-medium: rgba(27, 94, 62, 0.15);
+    --theme-accent-light: rgba(212, 175, 55, 0.08);
+    --theme-accent-medium: rgba(212, 175, 55, 0.15);
     
     /* ShadCN variables - keeping these the same */
     --background: 30 25% 98%;
