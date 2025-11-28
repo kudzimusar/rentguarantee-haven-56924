@@ -33,9 +33,9 @@ export const RentInput = ({ monthlyRent, setMonthlyRent }: RentInputProps) => {
           className="mt-2"
         />
         <div className="flex justify-between mt-2 text-sm">
-          <span className="text-gray-500">₹10,000</span>
+          <span className="text-gray-500">$100</span>
           <span className="font-medium text-purple-600">{formatCurrency(monthlyRent)}</span>
-          <span className="text-gray-500">₹200,000</span>
+          <span className="text-gray-500">$2,000</span>
         </div>
       </div>
     </div>

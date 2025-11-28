@@ -37,9 +37,9 @@ const ExpertAnalysisCard: React.FC<ExpertAnalysisCardProps> = ({ confidence }) =
             </p>
             
             <div className="mt-4 bg-white rounded-lg p-3 shadow-sm">
-              <p className="text-sm font-medium theme-primary-text">Propico Guaranteed Rent Program</p>
+              <p className="text-sm font-medium theme-primary-text">Proper Tier Guaranteed Rent Program</p>
               <p className="text-xs text-gray-600 mt-1">
-                Get on a call with a Propico expert today to discuss prompt listing and receive guaranteed rent for the entirety of your lease, starting as early as tomorrow.
+                Get on a call with a Proper Tier expert today to discuss prompt listing and receive guaranteed rent for the entirety of your lease, starting as early as tomorrow.
               </p>
               <Link to="/list-property" className="mt-2 inline-block text-xs theme-primary-text font-medium hover:underline">
                 Schedule your consultation →

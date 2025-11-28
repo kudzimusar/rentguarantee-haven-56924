@@ -104,8 +104,8 @@ const CompanyStorySection = () => {
                 <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mx-auto mb-4">
                   <MapPin className="h-6 w-6 text-purple-600" />
                 </div>
-                <h3 className="font-bold theme-primary-text text-lg mb-2">NRIs</h3>
-                <p className="text-gray-600 text-sm">Manage your Indian properties remotely with complete confidence</p>
+                <h3 className="font-bold theme-primary-text text-lg mb-2">Diaspora Property Owners</h3>
+                <p className="text-gray-600 text-sm">Manage your Zimbabwe properties remotely with complete confidence</p>
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">

@@ -11,8 +11,8 @@ const TermsOfUse = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHelmet 
-        title="Terms of Use - Propico | Legal Terms & Conditions"
-        description="Read Propico's terms of use for guaranteed rental income services. Understand your rights and obligations when using our property management platform."
+        title="Terms of Use - Proper Tier Properties | Legal Terms & Conditions"
+        description="Read Proper Tier Properties' terms of use for guaranteed rental income services. Understand your rights and obligations when using our property management platform."
       />
       <Navbar />
       <div className="pt-20">
@@ -70,7 +70,7 @@ const TermsOfUse = () => {
                     <li>You agree to pay us the charges associated with availing the Services.</li>
                     <li>
                       You agree not to use the website and/ or Services for any purpose that is unlawful, illegal or
-                      forbidden by these Terms, or Indian or local laws that might apply to you.
+                      forbidden by these Terms, or Zimbabwean or local laws that might apply to you.
                     </li>
                     <li>
                       You agree and acknowledge that website and the Services may contain links to other third party
@@ -95,11 +95,11 @@ const TermsOfUse = () => {
                     </li>
                     <li>
                       These Terms and any dispute or claim relating to it, or its enforceability, shall be governed by and
-                      construed in accordance with the laws of India.
+                      construed in accordance with the laws of Zimbabwe.
                     </li>
                     <li>
                       All disputes arising out of or in connection with these Terms shall be subject to the exclusive
-                      jurisdiction of the courts in Bangalore South, KARNATAKA
+                      jurisdiction of the courts in Harare, Zimbabwe
                     </li>
                     <li>
                       All concerns or communications relating to these Terms must be communicated to us using the

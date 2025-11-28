@@ -13,10 +13,10 @@ const SEOHelmet: React.FC<SEOHelmetProps> = ({
   title,
   description,
   canonicalUrl,
-  ogImage = "https://propico.in/og-image.png"
+  ogImage = "https://propertierproperties.com/propico-og-image.png"
 }) => {
   const location = useLocation();
-  const baseUrl = "https://propico.in";
+  const baseUrl = "https://propertierproperties.com";
   
   useEffect(() => {
     // Update canonical URL

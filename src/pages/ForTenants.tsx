@@ -31,7 +31,7 @@ const ForTenants = () => {
         <TenantCallToAction />
         <Footer />
       </div>
-      <WhatsAppButton message="Hi! I'm interested in Propico's tenant membership plans. Could you please help me with more information?" />
+      <WhatsAppButton message="Hi! I'm interested in Proper Tier Properties' tenant membership plans. Could you please help me with more information?" />
     </div>
   );
 };

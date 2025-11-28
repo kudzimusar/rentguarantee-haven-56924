@@ -18,7 +18,7 @@ const AboutCompanyFAQ = () => {
           value="item-6"
           icon={Building}
           question="How long has your company been managing properties?"
-          answer="Our team has over 15 years of property management experience across residential and commercial properties. We were founded in 2010 and have grown to manage over 500 properties across major Indian cities. Our management team combines expertise from real estate, finance, and technology backgrounds to provide innovative property management solutions."
+          answer="Our team has over 15 years of property management experience across residential and commercial properties. We were founded in 2010 and have grown to manage over 500 properties across major Zimbabwean cities including Harare, Bulawayo, and Mutare. Our management team combines expertise from real estate, finance, and technology backgrounds to provide innovative property management solutions tailored to the Zimbabwean market."
         />
         <FAQItem 
           value="item-8"
