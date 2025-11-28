@@ -23,11 +23,11 @@ export const Assumptions = ({ isOpen, setIsOpen }: AssumptionsProps) => {
       <CollapsibleContent className="p-3 rounded-lg border border-purple-100 bg-purple-50 text-xs">
         <ul className="space-y-1 text-gray-700">
           <li>• Average 45 days vacancy per year (1.5 months rent)</li>
-          <li>• Propico Management Fee (10% of rent)</li>
+          <li>• Proper Tier Management Fee (10% of rent)</li>
           <li>• Broker fee (50% of monthly rent)</li>
           <li>• Property damage cost (50% of monthly rent)</li>
-          <li>• Time value (₹1,350/hr × 6 hrs/month = ₹97,200/year)</li>
-          <li>• Maintenance, legal & admin (₹50,000 flat)</li>
+          <li>• Time value ($15/hr × 6 hrs/month = $1,080/year)</li>
+          <li>• Maintenance, legal & admin ($500 flat)</li>
         </ul>
       </CollapsibleContent>
     </Collapsible>

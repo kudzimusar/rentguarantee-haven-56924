@@ -9,8 +9,8 @@ const AboutUs = () => {
   return (
     <div className="min-h-screen bg-white">
       <SEOHelmet 
-        title="About Propico - India's Rental Guarantee Property Management Company"
-        description="Learn about Propico's mission to provide guaranteed rental income to property owners across India. Discover our story, team, and commitment to stress-free property management."
+        title="About Proper Tier Properties - Zimbabwe's Rental Guarantee Property Management Company"
+        description="Learn about Proper Tier Properties' mission to provide guaranteed rental income to property owners across Zimbabwe. Discover our story, team, and commitment to stress-free property management."
       />
       <Navbar />
       <div className="pt-20">

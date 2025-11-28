@@ -10,7 +10,7 @@ import SuccessView from "@/components/property/SuccessView";
 
 const GOOGLE_FORM_URL_KEY = "propertyFormGoogleFormUrl";
 // Secret key combination to show admin panel
-const ADMIN_KEY_SEQUENCE = "propicoadmin";
+const ADMIN_KEY_SEQUENCE = "propertieradmin";
 
 const ListProperty = () => {
   const [email, setEmail] = useState("");
@@ -76,7 +76,7 @@ const ListProperty = () => {
   const toggleDebugMode = () => {
     const newDebugMode = !debugMode;
     setDebugMode(newDebugMode);
-    localStorage.setItem("propicoDebugMode", newDebugMode.toString());
+    localStorage.setItem("propertierDebugMode", newDebugMode.toString());
     toast({
       title: newDebugMode ? "Debug mode enabled" : "Debug mode disabled",
       description: newDebugMode 

@@ -27,7 +27,7 @@ const TenantMembershipPlans = () => {
               <p className="text-center text-xs text-gray-500 mt-1">(inclusive of GST)</p>
               <div className="mt-4 pt-4 border-t border-gray-200">
                 <p className="text-center font-semibold text-gray-900">1 month refundable deposit</p>
-                <p className="text-center text-xs text-gray-500 mt-1">with Propico</p>
+                <p className="text-center text-xs text-gray-500 mt-1">with Proper Tier</p>
                 <p className="text-center font-semibold text-gray-900 mt-3 pt-3 border-t border-gray-200">Brokerage (if we find your property)</p>
                 <p className="text-center text-sm text-gray-600 mt-1">50% of monthly rent (incl. GST)</p>
               </div>
@@ -75,7 +75,7 @@ const TenantMembershipPlans = () => {
               <p className="text-center text-xs text-gray-500 mt-1">(inclusive of GST)</p>
               <div className="mt-4 pt-4 border-t border-gray-200">
                 <p className="text-center font-semibold text-gray-900">15-day refundable deposit</p>
-                <p className="text-center text-xs text-gray-500 mt-1">with Propico</p>
+                <p className="text-center text-xs text-gray-500 mt-1">with Proper Tier</p>
                 <p className="text-center font-semibold text-gray-900 mt-3 pt-3 border-t border-gray-200">Brokerage (if we find your property)</p>
                 <p className="text-center text-sm text-gray-600 mt-1">50% of monthly rent (incl. GST)</p>
               </div>

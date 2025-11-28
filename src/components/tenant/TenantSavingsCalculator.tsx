@@ -64,7 +64,7 @@ const TenantSavingsCalculator = () => {
             </h2>
             <div className="accent-line mx-auto"></div>
             <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
-              See how much you could save by moving into a Propico home.
+              See how much you could save by moving into a Proper Tier home.
             </p>
           </div>
 
@@ -149,28 +149,28 @@ const TenantSavingsCalculator = () => {
                   <div className="grid grid-cols-2 gap-4">
                     <div className="p-4 bg-gray-50 rounded-lg">
                       <div className="text-gray-600 text-sm">Traditional Deposit (3 months)</div>
-                      <div className="text-xl font-bold text-gray-800">₹{securityDeposit.toLocaleString()}</div>
+                      <div className="text-xl font-bold text-gray-800">${securityDeposit.toLocaleString()}</div>
                     </div>
                     <div className="p-4 bg-gray-50 rounded-lg">
-                      <div className="text-gray-600 text-sm">Propico Fee</div>
-                      <div className="text-xl font-bold text-purple-600">₹{monthlyFee.toLocaleString()}</div>
+                      <div className="text-gray-600 text-sm">Proper Tier Fee</div>
+                      <div className="text-xl font-bold text-purple-600">${monthlyFee.toLocaleString()}</div>
                     </div>
                   </div>
                   
                   <div className="border-t border-b border-gray-200 py-6 space-y-4">
                     <div className="flex justify-between items-center">
                       <span className="text-gray-600">Immediate Capital Saved</span>
-                      <span className="text-xl font-bold text-green-600">₹{securityDeposit.toLocaleString()}</span>
+                      <span className="text-xl font-bold text-green-600">${securityDeposit.toLocaleString()}</span>
                     </div>
                     
                     <div className="flex justify-between items-center">
                       <span className="text-gray-600">5% Interest Saved</span>
-                      <span className="text-lg font-bold text-green-600">₹{interestAmount.toLocaleString()}</span>
+                      <span className="text-lg font-bold text-green-600">${interestAmount.toLocaleString()}</span>
                     </div>
                     
                     <div className="flex justify-between items-center">
                       <span className="text-gray-600">Avoided Unfair Deductions (20%)</span>
-                      <span className="text-lg font-bold text-green-600">₹{unfairDeductions.toLocaleString()}</span>
+                      <span className="text-lg font-bold text-green-600">${unfairDeductions.toLocaleString()}</span>
                     </div>
                     
                     <div className="flex justify-between items-center">
@@ -180,7 +180,7 @@ const TenantSavingsCalculator = () => {
                     
                     <div className="flex justify-between items-center">
                       <span className="text-gray-600">Estimated Rewards Value</span>
-                      <span className="text-lg font-bold text-green-600">₹{estimatedRewardsValue.toLocaleString()}</span>
+                      <span className="text-lg font-bold text-green-600">${estimatedRewardsValue.toLocaleString()}</span>
                     </div>
                     
                     <div className="text-gray-700 border-t border-gray-200 pt-4 space-y-2 text-sm">
@@ -193,7 +193,7 @@ const TenantSavingsCalculator = () => {
                     <div className="mb-4">
                       <div className="text-2xl font-bold theme-primary-text">Total First Year Benefit</div>
                       <div className="text-3xl font-bold text-green-600 mt-1">
-                        ₹{(immediateSavings + estimatedRewardsValue).toLocaleString()}
+                        ${(immediateSavings + estimatedRewardsValue).toLocaleString()}
                       </div>
                     </div>
                     

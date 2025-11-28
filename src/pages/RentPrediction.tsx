@@ -9,8 +9,8 @@ const RentPrediction: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHelmet 
-        title="Rent Predictor Tool - Estimate Property Rental Income | Propico"
-        description="Use Propico's AI-powered rent predictor to estimate your property's rental income potential. Get accurate market-based rent estimates for properties across India."
+        title="Rent Predictor Tool - Estimate Property Rental Income | Proper Tier Properties"
+        description="Use Proper Tier Properties' AI-powered rent predictor to estimate your property's rental income potential. Get accurate market-based rent estimates for properties across Zimbabwe."
       />
       <Navbar />
       <div className="pt-20">

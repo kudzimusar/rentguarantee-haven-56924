@@ -8,8 +8,8 @@ const RefundPolicy = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHelmet 
-        title="Refund Policy - Propico | Terms & Conditions"
-        description="Understand Propico's refund policy for guaranteed rental income services. Learn about eligibility, process, and terms for refunds on our property management services."
+        title="Refund Policy - Proper Tier Properties | Terms & Conditions"
+        description="Understand Proper Tier Properties' refund policy for guaranteed rental income services. Learn about eligibility, process, and terms for refunds on our property management services."
       />
       <Navbar />
       <div className="pt-20">
@@ -19,7 +19,7 @@ const RefundPolicy = () => {
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 md:p-10">
               <h1 className="text-xl md:text-2xl font-bold mb-6 text-[#4A23AD]">
-                Propico (Leap To Win Technologies Pvt Ltd) - Refund Policy
+                Proper Tier Properties (Leap To Win Technologies Pvt Ltd) - Refund Policy
               </h1>
               
               <p className="text-base font-medium text-gray-700 mb-8">
@@ -28,7 +28,7 @@ const RefundPolicy = () => {
               
               <div className="prose max-w-none text-gray-800 space-y-8">
                 <p>
-                  At Propico, we are committed to delivering high-quality technology services. This Refund Policy
+                  At Proper Tier Properties, we are committed to delivering high-quality technology services. This Refund Policy
                   outlines the terms under which refunds may be issued for our services.
                 </p>
                 
@@ -103,8 +103,8 @@ const RefundPolicy = () => {
                 <section>
                   <h2 className="text-lg font-bold mb-4 text-[#4A23AD]">6. Contact Information</h2>
                   <p>
-                    Propico (Leap To Win Technologies Pvt. Ltd.)<br />
-                    Email: support@propico.in
+                    Proper Tier Properties (Leap To Win Technologies Pvt. Ltd.)<br />
+                    Email: info@propertierproperties.com
                   </p>
                 </section>
               </div>

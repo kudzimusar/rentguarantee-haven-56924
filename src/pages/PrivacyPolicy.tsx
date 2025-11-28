@@ -9,8 +9,8 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEOHelmet 
-        title="Privacy Policy - Propico | Data Protection & Security"
-        description="Learn how Propico protects your personal data and privacy. Our comprehensive privacy policy explains data collection, usage, and your rights under data protection laws."
+        title="Privacy Policy - Proper Tier Properties | Data Protection & Security"
+        description="Learn how Proper Tier Properties protects your personal data and privacy. Our comprehensive privacy policy explains data collection, usage, and your rights under data protection laws."
       />
       <Navbar />
       <div className="pt-20">
@@ -58,20 +58,19 @@ const PrivacyPolicy = () => {
                     or other managing authority.
                   </li>
                   <li>
-                    <strong>Application</strong> refers to Propico, the software program provided by the Company.
+                    <strong>Application</strong> refers to Proper Tier Properties, the software program provided by the Company.
                   </li>
                   <li>
                     <strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this
-                    Agreement) refers to Leap To Win Technologies Private Limited, 3rd Floor, No
-                    502, Sharda, 4S Sector 3, HSR Layout, Bangalore, Bangalore South, Karnataka
-                    – 560102.
+                    Agreement) refers to Leap To Win Technologies Private Limited, 123 Robert Mugabe Road,
+                    Harare Central, Harare, Zimbabwe.
                   </li>
                   <li>
                     <strong>Cookies</strong> are small files that are placed on Your computer, mobile device or any
                     other device by a website, containing the details of Your browsing history on that
                     website among its many uses.
                   </li>
-                  <li><strong>Country</strong> refers to: Karnataka, India</li>
+                  <li><strong>Country</strong> refers to: Zimbabwe</li>
                   <li>
                     <strong>Device</strong> means any device that can access the Service such as a computer, a
                     cellphone or a digital tablet.
@@ -94,7 +93,7 @@ const PrivacyPolicy = () => {
                     page visit).
                   </li>
                   <li>
-                    <strong>Website</strong> refers to Propico, accessible from <a href="https://propico.in" className="text-blue-600 hover:underline">propico.in</a>
+                    <strong>Website</strong> refers to Proper Tier Properties, accessible from <a href="https://propertierproperties.com" className="text-blue-600 hover:underline">propertierproperties.com</a>
                   </li>
                   <li>
                     <strong>You</strong> means the individual accessing or using the Service, or the company, or
@@ -439,8 +438,8 @@ const PrivacyPolicy = () => {
                 <h2 className="text-2xl font-semibold mb-4 theme-primary-text">Contact Us</h2>
                 <p className="mb-4">If you have any questions about this Privacy Policy, You can contact us:</p>
                 <ul className="list-disc pl-6">
-                  <li>By email: support@propico.in</li>
-                  <li>By visiting our website: propico.in</li>
+                  <li>By email: info@propertierproperties.com</li>
+                  <li>By visiting our website: propertierproperties.com</li>
                 </ul>
               </div>
             </div>

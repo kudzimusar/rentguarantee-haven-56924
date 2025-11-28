@@ -39,7 +39,7 @@ export const CostComparison = ({
       <h4 className="text-sm font-medium text-gray-700 mb-3">Cost Comparison</h4>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-        {/* Propico side */}
+        {/* Proper Tier side */}
         <div className="bg-green-50 rounded-lg p-6 border border-green-100">
           <div className="flex justify-between items-center mb-1">
             <h5 className="font-medium text-green-800">Proper Tier Costs</h5>
